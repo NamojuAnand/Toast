@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast example"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:hint="enter number number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:id="@+id/edit1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox"
+            android:gravity="center"
+            android:hint="enter number number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:id="@+id/edit2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="2dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="click"
+            android:background="@drawable/buttons"
+            android:id="@+id/button"/>
+    </LinearLayout>
+
+</LinearLayout>
